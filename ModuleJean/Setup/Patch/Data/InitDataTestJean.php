@@ -42,7 +42,7 @@ class InitDataTestJean implements DataPatchInterface
         ];
         $this->moduleDataSetup->getConnection()->insertArray(
             $this->moduleDataSetup->getTable('test_table'),
-            ['jean', 'jean@jean.com'],
+            ['name', 'email'],
             $data
         );
         $this->moduleDataSetup->getConnection()->endSetup();
