@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 declare(strict_types=1);
-namespace ModuleJean\ModuleJean\Setup\Patch\Data;
+namespace TestJean\ModuleJean\Setup\Patch\Data;
 
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
