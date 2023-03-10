@@ -1,0 +1,25 @@
+<?php
+/** @var TestJean\ModuleJean\ViewModel\TestViewModel $viewModel */
+/** @var TestJean\ModuleJean\Block\TestBlock $block */
+$viewModel = $block->getViewModel();
+$UserCollection = $viewModel->getTestTableCollection();
+echo date('H:i:s');
+echo '<br />';
+echo $block->getCacheKey();
+?>
+<br />
+<br />
+
+<?php foreach ($UserCollection as $userPost): ?>
+<?= $block->escapeHtml($userPost->getData('name')); ?><br/>
+<?= $block->escapeHtml($UserPost->getData('email')); ?><br/>
+<a href="<?= $block->getUrl('*/*/delete', ['id' => $userPost->getId()]); ?>" >Delete</a><br/><br/>
+<?php endforeach; ?>
+
+<form action="<?= $block->getUrl('*/*/save'); ?>">
+    <label for="name">User:</label><br/>
+    <input type="text" name="name" id="name"><br/>
+    <label for="email">Emain:</label><br/>
+    <input type="email" name="email" id="email"><br/>
+    <input type="submit" value="Submit">
+</form>
