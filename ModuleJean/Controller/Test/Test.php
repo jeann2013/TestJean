@@ -15,7 +15,7 @@ class Test extends Action
            'data' => '1'
        ];
        $result->setData($data);
-//        return $result;
+       return $result;
 //        $result = $this->resultFactory->create(ResultFactory::TYPE_RAW);
 //        $result->setHeader('Content-Type', 'text/xml');
 //        $result->setContents('<user><name>Test Name</name></user>');
@@ -32,7 +32,7 @@ class Test extends Action
 //        $page->addHandle('test_handle');
 //        print_r($page->getLayout()->getUpdate()->getHandles());
 //        exit;
-        return $this->resultFactory->create(ResultFactory::TYPE_PAGE);
+        // return $this->resultFactory->create(ResultFactory::TYPE_PAGE);
 //        echo $this->getRequest()->getParam('test_param_key', 'some_default_value');
     }
 }
