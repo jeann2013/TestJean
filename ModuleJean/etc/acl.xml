@@ -3,8 +3,8 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="TestJean_ModuleJean::blog_admin_main" title="Blog Menu" translate="title" sortOrder="10">
-                    <resource id="TestJean_ModuleJean::blog_admin_grid" title="Manage Posts" translate="title" sortOrder="10" />
+                <resource id="TestJean_ModuleJean::blog_admin_main" title="User Menu" translate="title" sortOrder="10">
+                    <resource id="TestJean_ModuleJean::blog_admin_grid" title="Manage Users" translate="title" sortOrder="10" />
                 </resource>
             </resource>
         </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="TestJean_ModuleJean::blog_admin_main" title="Blog admin" translate="title" module="TestJean_ModuleJean" sortOrder="51" resource="TestJean_ModuleJean::blog_admin_main"/>
-        <add id="TestJean_ModuleJean::blog_admin_grid" title="Manage Posts" translate="title" module="TestJean_ModuleJean" sortOrder="51" resource="TestJean_ModuleJean::blog_admin_grid" parent="TestJean_ModuleJean::blog_admin_main" action="blog_admin/blog/index"/>
+        <add id="TestJean_ModuleJean::blog_admin_main" title="User admin" translate="title" module="TestJean_ModuleJean" sortOrder="51" resource="TestJean_ModuleJean::blog_admin_main"/>
+        <add id="TestJean_ModuleJean::blog_admin_grid" title="Manage Users" translate="title" module="TestJean_ModuleJean" sortOrder="51" resource="TestJean_ModuleJean::blog_admin_grid" parent="TestJean_ModuleJean::blog_admin_main" action="blog_admin/blog/index"/>
     </menu>
 </config>

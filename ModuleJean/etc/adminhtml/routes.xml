@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
         <route id="blog_admin" frontName="blog_admin">
-            <module name="TestNamespace_TestModuleName"/>
+            <module name="TestJean_ModuleJean"/>
         </route>
     </router>
 </config>

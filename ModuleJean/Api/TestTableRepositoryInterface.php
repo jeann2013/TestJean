@@ -12,7 +12,7 @@ interface TestTableRepositoryInterface
      * @param TestTableInterface $testTable
      * @return TestTableInterface
      */
-    public function save(BlogInterface $testTable);
+    public function save(TestTableInterface $testTable);
 
     /**
      * @param $testtableId
