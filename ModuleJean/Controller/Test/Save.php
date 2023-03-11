@@ -11,7 +11,7 @@ use TestJean\ModuleJean\Model\ResourceModel\TestTable;
 class Save extends Action
 {
     /**
-     * @var TestJean\ModuleJean\Model\TestTableRepository
+     * @var TestJean\ModuleJean\Model\TestTableFactory
      */
     private $testTableFactory;
     /**

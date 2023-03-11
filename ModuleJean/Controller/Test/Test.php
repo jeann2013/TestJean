@@ -9,13 +9,13 @@ class Test extends Action
 {
     public function execute()
     {
-       $result = $this->resultFactory->create(ResultFactory::TYPE_JSON);
-       $data = [
-           'some' => 'test',
-           'data' => '1'
-       ];
-       $result->setData($data);
-       return $result;
+    //    $result = $this->resultFactory->create(ResultFactory::TYPE_JSON);
+    //    $data = [
+    //        'some' => 'test',
+    //        'data' => '1'
+    //    ];
+    //    $result->setData($data);
+    //    return $result;
 //        $result = $this->resultFactory->create(ResultFactory::TYPE_RAW);
 //        $result->setHeader('Content-Type', 'text/xml');
 //        $result->setContents('<user><name>Test Name</name></user>');
